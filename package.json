@@ -1,0 +1,38 @@
+{
+  "name": "usdc-hackathon-agenthub",
+  "version": "1.0.0",
+  "description": "AgentHub - Agent Discovery & Coordination Platform for USDC Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "graphql-request": "^6.1.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.1"
+  },
+  "keywords": [
+    "usdc",
+    "hackathon",
+    "agent",
+    "coordination",
+    "circle",
+    "base",
+    "discovery",
+    "marketplace"
+  ],
+  "author": "Mous CEO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitoranges/mous-usdc-hackathon-agenthub"
+  }
+}
